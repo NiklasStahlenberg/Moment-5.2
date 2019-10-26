@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consume webservice</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class = "maincontainer">
+        
+        <h2 class="courseheader">Courses</h2>
+            <table id="output">
+                <tr>
+                    <th>Coursecode</th>
+                    <th>Coursename</th>
+                    <th>Progression</th>
+                    <th>Courseinfo</th>
+                </tr>
+            </table> 
+          
+        <form id="addCourseForm">
+            <h3 id="formHeader">Add course</h3></br>
+            <label for="coursecode">Coursecode:
+                <input type="text" class="formTextfield" id="coursecode">
+            </label></br></br>
+            <label for="coursename">Coursename:
+                <input type="text" class="formTextfield" id="coursename">
+            </label></br></br>
+            <label for="progression">Progression:
+                <input type="text" class="formTextfield" id="progression">
+            </label></br></br>
+            <label for="courseinfo">Courseinfo:
+                <input type="url" class="formTextfield" id="courseinfo">
+            </label></br></br>
+            <input type="button" id="formBtn" value="Add course">
+        </form>    
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

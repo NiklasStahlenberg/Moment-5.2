@@ -85,6 +85,7 @@ function nullOrEmpty(string){
     }
 }
 
+//check length of string
 function inputLength(string){
     if(string.length > 5){
         return true;

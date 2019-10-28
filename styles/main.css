@@ -25,8 +25,8 @@ tr:nth-child(even) {
 }
 
 #addCourseForm {
+  margin: 0 auto;
   margin-top: 25px;
-  margin-left: 700px;
   border: 1px solid greenyellow;
   width: 500px;
   padding: 20px;
@@ -46,6 +46,11 @@ label {
 #formHeader {
   border-bottom: 1px solid red;
   padding-bottom: 2px;
+}
+
+#errorMsg {
+  color: red;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */

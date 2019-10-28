@@ -1,4 +1,4 @@
-let url = "http://localhost/2/webbutveckling%20III/moment%205/api.php";
+let url = "http://studenter.miun.se/~nist1802/writeable/dt173g/moment%205/api.php";
 
 window.onload = function(){
     //get data from api on load
@@ -68,8 +68,7 @@ function addCourse(){
         }).then((res) => res.json())
         .then((data) => {
             console.log(data);
-            location.reload();
-            //getCourses();
+            location.reload();            
         })
         .catch((error) => console.log(error))
     }
